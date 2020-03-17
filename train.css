@@ -1,0 +1,49 @@
+.flex-row {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-2 {
+    flex: 50%
+}
+
+.flex-4 {
+    flex: 33.3333333%;
+}
+
+.flex-3 {
+    flex: 25%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    word-break: break-all;
+}
+
+@media screen 
+and (min-width: 480px)
+and (max-width: 770px) { /*sm*/
+
+    .flex-sm-6 {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) { /*xs*/
+
+    .flex-xs-12 {
+        flex: 100%;
+    }
+}
